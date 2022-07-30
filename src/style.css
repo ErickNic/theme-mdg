@@ -3,7 +3,9 @@
     --lato:'Lato', sans-serif;
     --roboto:'Roboto', sans-serif;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -347,9 +349,6 @@ nav:hover{
     animation: pulse 2s linear alternate infinite;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 .informative__section{
     background-color: black;
     width: 100%;
@@ -358,6 +357,37 @@ html {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 1fr 4fr 1fr;
+}
+.donate__container{
+    padding: 2rem;
+    grid-area: 1/7/2/9;
+    display: flex;
+    width: 81%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #318001;
+}
+.donate__container--p{
+    color: white;
+    margin-bottom: 2rem;
+    font-family: 'Roboto';
+}
+.donate__container--button{
+    color: white;
+    font-size: medium;
+    font-family: var(--roboto);
+    height: 3rem;
+    width: 8rem;
+    border-radius: 4%;
+    background-color: rgb(214, 104, 30);
+    outline: none;
+    border: 1px solid rgb(218, 100, 22);
+}
+.donate__container--button:hover{
+    background-color: rgb(189, 91, 27);
 }
 .main__recluitment--section{
     width: 100%;
