@@ -1,1 +1,1 @@
-# theme-wordpress para ONG mEl Mirador de Galan
+# theme-wordpress para ONG mEl Mirador de Galán
