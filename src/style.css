@@ -518,7 +518,7 @@ footer{
 }
 #correo:focus{
     border: #72e42b;
-    outline: #318001;
+    outline: none;
 }
 #correo:scope{
     background-color: red;
