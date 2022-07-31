@@ -523,7 +523,7 @@ footer{
 }
 .socialMedia__section{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     grid-area: 1/5/2/8;
     padding-top: 2.5rem;
 }
