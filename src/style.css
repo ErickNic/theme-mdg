@@ -24,7 +24,7 @@ background: #318001;
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background: rgb(61, 107, 76); 
+background: #214907; 
 }
 @keyframes transits {
     25%{
@@ -363,6 +363,7 @@ nav:hover{
     grid-area: 1/7/2/9;
     display: flex;
     width: 81%;
+    z-index: 2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -381,6 +382,7 @@ nav:hover{
     font-family: var(--roboto);
     height: 3rem;
     width: 8rem;
+    z-index: 2;
     border-radius: 4%;
     background-color: rgb(214, 104, 30);
     outline: none;
@@ -405,6 +407,27 @@ nav:hover{
     background: #e0e0e0;
     box-shadow:  20px 20px 60px #bebebe,
              -20px -20px 60px #ffffff;
+}
+.video__container{
+    grid-area: 2/2/3/6;
+    z-index: 3;
+}
+#dl__container{
+    grid-area: 1/7/4/9;
+    width: 70%;
+    z-index:1;
+    background-color: #32800117;
+}
+.dl__container2{
+    grid-area: 2/1/3/7;
+    display: flex;
+    align-items: center;
+}
+#dl__container2{
+    width: 100%;
+    height: 40%;
+    z-index:1;
+    background-color: #32800117;
 }
 .main__recluitment--textocontainer{
     font-family: var(--roboto);
@@ -460,11 +483,12 @@ nav:hover{
 }
 footer{
     font-family: var(--roboto);
+    margin-bottom: 1rem;
     /* margin: 2rem 2rem 0rem 2rem; */
     /* padding: 2rem 9rem 2rem 9rem; */
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4,100px);
+    grid-template-rows: repeat(3,100px);
 }
 .line{
     width: 100%;
@@ -473,7 +497,8 @@ footer{
     border-top: solid rgb(181, 192, 170) 0.1rem;
 }
 .enlacesUtiles__section{
-    grid-area: 1/2/2/2;
+    grid-area: 1/2/4/2;
+    margin-left: 1rem;
     padding-top: 2.5rem;
 }
 .enlacesUtiles__section--h2{
@@ -482,6 +507,9 @@ footer{
 }
 .enlacesUtiles__section--linksContainer{
     display: flex;
+    height: 71%;
+    margin-left: 0.5rem;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 .enlacesUtiles__section--links{
