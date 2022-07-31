@@ -414,7 +414,7 @@ nav:hover{
 }
 #dl__container{
     grid-area: 1/7/4/9;
-    width: 70%;
+    width: 81%;
     z-index:1;
     background-color: #32800117;
 }
