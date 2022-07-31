@@ -519,7 +519,7 @@ footer{
 }
 .enlacesUtiles__section--links:hover{
     text-decoration: underline;
-    fill:#666666
+    color:#318001;
 }
 .socialMedia__section{
     display: flex;
@@ -532,7 +532,7 @@ footer{
     margin-right: 1rem;
 }
 .socialMedia__section--links:hover svg{
-    fill:#666666
+    fill:#318001;
 }
 .socialMedia__section--h2{
     font-style: oblique;
@@ -578,9 +578,7 @@ footer{
     border: #72e42b;
     outline: none;
 }
-#correo:scope{
-    background-color: red;
-}
+
 #submit__buttom{
     border-radius: 30px;
     width: 8rem;
