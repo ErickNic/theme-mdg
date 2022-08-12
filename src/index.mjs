@@ -32,9 +32,3 @@ function control(x){
     }
 }
 
-gdc.addEventListener('mouseover',()=>{
-    const c = gdc.children;
-    chevron.style.animation='animation: move 3s ease-out infinite;';
-    console.log(c);
-})
-
